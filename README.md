@@ -123,5 +123,26 @@ A continuación, se detalla la estructura final de la base de datos SQL propuest
 * `id_jugador` (FK)
 * `total_apariciones` (INT)
 * `total_goles` (INT)
-
+### ER Normalizado
+![alt text](image-7.png)
 ---
+
+
+
+
+# Script en sql
+![alt text](image-8.png)
+
+Ambos scripts se encuentran en la documentacion de scripts
+
+# Script en mongo
+Crear una base de datos de Mongo donde solo se extraiga los ALL-TIME TOP PLAYER
+APPEARANCES
+## Configuracion de ips
+Se incluye la ip 0.0.0.0/0 para que acepte que todas las ips hagan consultas
+![alt text](image-11.png)
+## Conexion en Mongo
+Se creó un cluster en MongoDB, y se conecto por Mongo Compass
+![alt text](image-9.png)
+
+![alt text](image-10.png)

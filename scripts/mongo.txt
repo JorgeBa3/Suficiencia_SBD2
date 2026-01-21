@@ -1,0 +1,12 @@
+[
+    { "rank": 1, "player": "Cristiano Ronaldo", "nationality": "POR", "total_appearances": 183, "total_goals": 140 },
+    { "rank": 2, "player": "Iker Casillas", "nationality": "ESP", "total_appearances": 177, "total_goals": 0 },
+    { "rank": 3, "player": "Lionel Messi", "nationality": "ARG", "total_appearances": 163, "total_goals": 129 },
+    { "rank": 4, "player": "Karim Benzema", "nationality": "FRA", "total_appearances": 150, "total_goals": 90 },
+    { "rank": 5, "player": "Xavi Hernández", "nationality": "ESP", "total_appearances": 151, "total_goals": 11 },
+    { "rank": 6, "player": "Raúl González", "nationality": "ESP", "total_appearances": 142, "total_goals": 71 },
+    { "rank": 7, "player": "Thomas Müller", "nationality": "GER", "total_appearances": 142, "total_goals": 53 },
+    { "rank": 8, "player": "Ryan Giggs", "nationality": "WAL", "total_appearances": 145, "total_goals": 28 },
+    { "rank": 9, "player": "Sergio Ramos", "nationality": "ESP", "total_appearances": 137, "total_goals": 15 },
+    { "rank": 10, "player": "Paolo Maldini", "nationality": "ITA", "total_appearances": 135, "total_goals": 3 }
+]
