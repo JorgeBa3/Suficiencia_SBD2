@@ -15,8 +15,10 @@
 ![alt text](image-2.png)
 2.  **Finales.pdf:** Se observa información de partidos, estadios, arbitros, equipos locales, visitantes, rondas de penales, alineacionese y cambios.
 ![alt text](image-3.png)
-3. **Facts.pdf**: 
 
+3. **Facts.pdf**: Tiene informacion de clubes, jugadores 
+![alt text](./ER/NoNormalizado.png)
+![alt text](image-6.png)
 
 ---
 
@@ -26,15 +28,13 @@ Para garantizar la integridad de los datos y evitar redundancia, se transformó 
 
 ### Paso 1: Separación de Catálogos (1FN - Eliminar grupos repetidos)
 Inicialmente, un partido en el PDF tiene repetidos los nombres de los estadios y los clubes.
-* **Acción:** Se extraen `ESTADIO`, `CLUB` y `PAIS` como entidades independientes.
-* **Acción:** Se crea un catálogo único de `JUGADORES` unificando a los goleadores de los récords con los jugadores de las alineaciones.
+* Se extraen `ESTADIO`, `CLUB` y `PAIS` como entidades independientes.
+* Se crea un catálogo único de `JUGADORES` unificando a los goleadores de los récords con los jugadores de las alineaciones.
 
 ### Paso 2: Relaciones Muchos a Muchos (2FN y 3FN)
 Un partido tiene muchos jugadores, y un jugador juega muchos partidos. Un partido tiene muchos eventos (goles, cambios).
-* **Acción:** Se crean tablas intermedias `ALINEACION` (Match_Players) y `EVENTO_PARTIDO`.
+* Se crean tablas intermedias `ALINEACION` (Match_Players) y `EVENTO_PARTIDO`.
 
-> 📷 **[PEGAR SCREENSHOT AQUÍ: Captura de tu herramienta de diagramado (ej: Draw.io, Workbench, DataGrip) mostrando las tablas desconectadas o en borrador]**
-> *Descripción: Borrador inicial de las entidades identificadas.*
 
 ---
 
