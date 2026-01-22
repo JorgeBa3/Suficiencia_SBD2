@@ -135,6 +135,13 @@ A continuación, se detalla la estructura final de la base de datos SQL propuest
 
 Ambos scripts se encuentran en la documentacion de scripts
 
+## Extracción de datos
+Debido a la naturaleza no estructurada y el formato heterogéneo de los pds, se implementó una estrategia de extracción asistida por Inteligencia Artificial. Esta decisión se tomó la desición para optimizar el tiempo de procesamiento y minimizar errores humanos en la transcripción masiva de datos.
+![alt text](image-12.png)
+![alt text](image-14.png)
+
+Al correr los inserts, algunos daban conflictos, porque no era el id del pais o jugador o no se había llenado la tabla a la que se hace referencia con datos, entonces se cambiaron los scripts para mejorar la carga de datos
+
 # Script en mongo
 Crear una base de datos de Mongo donde solo se extraiga los ALL-TIME TOP PLAYER
 APPEARANCES
